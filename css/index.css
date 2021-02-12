@@ -19,7 +19,7 @@ time, mark, audio, video {
 	box-sizing: border-box;
     margin: 0;
 	padding: 0;
-	/* border:1px solid grey; */
+	border:1px solid grey;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -293,4 +293,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* SECOND HTML PAGE BELOW */
+
+
+
+.jumboabout{
+    background-image:url(/img/jumbo-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:20vh;
+}
+
+
+.about{
+    border-bottom:black 1px dotted;
+}
+
+.abouttext{
+    padding:2% 2%;
+
 }
