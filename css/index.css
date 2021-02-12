@@ -19,7 +19,7 @@ time, mark, audio, video {
 	box-sizing: border-box;
     margin: 0;
 	padding: 0;
-	border:1px solid grey;
+	/* border:1px solid grey; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -322,10 +322,14 @@ footer nav a {
 
 .topimages{
     display:flex;
+    padding:2% 0;
+    border-bottom:1px dotted black;
 }
 
 .bottomimages{
     display: flex;
+    padding:2% 0%;
+    border-bottom:1px dotted black;
 }
 
 /* .imagesection{
@@ -341,3 +345,30 @@ footer nav a {
 /* .strategy .howwework{
     display: flex;
 } */
+
+
+.strategycontent{
+    padding:2% 1%;
+}
+
+
+.bottomsection{
+    padding:2% 0%;
+}
+
+h6{
+    padding:2% 0;
+}
+
+.strategycontent p{
+    padding-bottom:2%;
+}
+
+button{
+    padding:1%;
+    width:25%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+
+}
