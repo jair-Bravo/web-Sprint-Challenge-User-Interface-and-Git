@@ -318,3 +318,26 @@ footer nav a {
     padding:2% 2%;
 
 }
+
+
+.topimages{
+    display:flex;
+}
+
+.bottomimages{
+    display: flex;
+}
+
+/* .imagesection{
+    display: flex;
+    flex-wrap: wrap;
+} */  
+
+/* .topimages .bottomimages{
+    display:flex;
+    flex-wrap: nowrap;
+} */
+
+/* .strategy .howwework{
+    display: flex;
+} */
